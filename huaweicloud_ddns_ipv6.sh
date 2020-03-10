@@ -23,6 +23,7 @@ host="ipv6"
 #获取ip地址网址
 GETIPURL="ipv6.ip.sb"
 #GETIPURL="api.myip.la"
+#GETIPURL="http://v6.ip.zxinc.org/getip"
 #GETIPURL="https://v6.yinghualuo.cn"
 #GETIPURL="https://ip.lsy.cn/getip"
 #GETIPURL="https://www.ipqi.co"
