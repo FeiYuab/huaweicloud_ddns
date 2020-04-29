@@ -106,4 +106,4 @@ curl -X PUT -L -k -s \
     "https://$dns/v2/zones/$ZONE_ID/recordsets/$RECORDSET_ID" \
     -H "Content-Type: application/json" \
     -H "X-Auth-Token: $token" \
-    -d "{\"records\": [\"$TARGET_IP\"],\"ttl\": 1}"
+    -d "{ \"records\" : [\" $TARGET_IP \"], \"ttl\" : 1}"
