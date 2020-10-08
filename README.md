@@ -9,7 +9,7 @@
 ubuntu/debian
 ```
 apt-get update
-apt-get install wget curl dnsutils cron -y
+apt-get install wget curl dnsutils net-tools cron -y
 wget -N --no-check-certificate https://raw.githubusercontent.com/lllvcs/huaweicloud_ddns/ipv6/huaweicloud_ddns_ipv6.sh
 OR
 wget -N --no-check-certificate https://cdn.jsdelivr.net/gh/lllvcs/huaweicloud_ddns@ipv6/huaweicloud_ddns_ipv6.sh
@@ -20,7 +20,7 @@ chmod +x ./huaweicloud_ddns_ipv6.sh
 
 centos
 ```
-yum install wget curl bind-utils cron -y
+yum install wget curl bind-utils net-tools cron -y
 wget -N --no-check-certificate https://raw.githubusercontent.com/lllvcs/huaweicloud_ddns/ipv6/huaweicloud_ddns_ipv6.sh
 OR
 wget -N --no-check-certificate https://cdn.jsdelivr.net/gh/lllvcs/huaweicloud_ddns@ipv6/huaweicloud_ddns_ipv6.sh
